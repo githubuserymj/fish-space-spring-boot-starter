@@ -1,2 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.fish.space.starter.oss.config.OssAutoConfiguration
+com.fish.space.starter.oss.config.OssAutoConfiguration,\
+com.fish.space.annotation.aspect.MethodBaseLogAspect

@@ -2,6 +2,7 @@ package com.fish.space.starter.oss.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
 
 /**
  * @Author: yumingjun
@@ -10,6 +11,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @Description:
  */
 @Data
+@PropertySource("classpath:fish-space.properties")
 @ConfigurationProperties(prefix = "oss")
 public class OssProperties {
     /**
